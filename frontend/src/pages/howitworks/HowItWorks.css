@@ -1,0 +1,35 @@
+.how-it-works-section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  font-size: 24px;
+}
+
+.step-box {
+  border: 1px solid #ca1616;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  height: 200px;
+}
+
+.step-box h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.step-box p {
+  font-size: 20px;
+  color: #555;
+}
+@media screen and (width: 768px) {
+  .step-box h3 {
+    font-size: 20px;
+  }
+  .step-box {
+    padding: 5px;
+  }
+  .step-box p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,31 @@
+.testimonials-section {
+  background-color: #fff;
+  padding: 50px 0;
+  font-size: 24px;
+}
+
+.testimonial-box {
+  padding: 20px;
+  border: 1px solid #da2121;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+  height: 210px;
+}
+
+.testimonial-box p {
+  font-size: 20px;
+  color: #333;
+}
+
+.testimonial-box h5 {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff;
+}
+@media screen and (width: 768px) {
+  .testimonial-box p {
+    font-size: 15px;
+  }
+}

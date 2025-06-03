@@ -1,0 +1,39 @@
+.card {
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto;   
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .login-heading {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    color: #004aad;
+    text-align: center;
+  }
+  
+  .back-btn {
+    position: absolute;
+    left: 0;
+    
+  }
+  
+  .form-label {
+    text-align: left;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+ 
+  .btn-block {
+    display: inline-block;
+    width: auto;
+  }
+
+  .login-container {
+    min-height: 100vh;
+    background-color: transparent;
+  }
+  

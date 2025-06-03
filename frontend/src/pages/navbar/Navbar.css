@@ -1,0 +1,206 @@
+/* .navbar-container {
+  width: 100%;
+  margin: auto;
+}
+
+.navlink-icon {
+  font-size: 23px;
+}
+
+.custom-outline-btn {
+  color: #8064a2;
+  border-color: #8064a2;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  font-weight: 500;
+}
+.custom-outline-btn:hover {
+  background-color: #8064a2;
+  color: #ffffff;
+}
+
+.dropdown {
+  position: relative;
+  
+}
+.profile-dropdown-content {
+  position: absolute;
+  width: 150px;
+  right: 0;
+  transform: translateY(40%);
+  z-index: 1;
+  padding: 5px;
+}
+.nav-dropdown-content {
+  display: none;
+  position: absolute;
+  width: 220px;
+  left: 0;
+  z-index: 1;
+}
+
+.space {
+  opacity: 0;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 2px;
+}
+
+.dropdown:hover .nav-dropdown-content {
+  display: block;
+}
+
+.nav-dropdown-link {
+  text-decoration: none;
+  color: #6d747a;
+}
+
+.nav-modal {
+  position: fixed;
+  z-index: 1060;
+  top: 5%;
+  left: 25%;
+  padding: 10px 0px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+  width: 50%;
+
+  background: white;
+}
+
+.overlay {
+  position: fixed;
+  z-index: 960;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: gray;
+  filter: blur(10px);
+  opacity: 50%;
+}
+
+.footer .footer-heading {
+  color: #08090a;
+  font-weight: bold;
+}
+
+.logo-part{
+  max-height: 75px;
+}
+
+.logo-img img{
+  max-width: 75px;
+}
+
+.footer li {
+  margin-top: 10px;
+  color: #08090a;
+  cursor: pointer;
+}
+
+@media (min-width: 100px) and (max-width: 330pxx) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+  .space {
+    display: none;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .dropdown {
+    margin-top: 5px;
+  }
+
+  .dropdown .light-icon {
+    size: 15px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  .navlink-icon {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+
+  .nav-modal {
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+  }
+}
+ */
+
+/* Navbar.css */
+.custom-navbar-color {
+  background-color: #343a40; /* Custom dark background for the navbar */
+}
+
+.navbar-toggler {
+  background-color: #6c757d; /* Background color for the toggle button */
+  border: none; /* Removes the default border */
+}
+
+.navbar-toggler:hover {
+  background-color: #5a6268; /* Hover background color for the toggle button */
+}
+
+/* Styles for the collapsed navbar */
+.navbar-collapse {
+  /* background-color: #343a40; Set a background color when the navbar collapses */
+  text-align: center;
+}
+
+.navbar-collapse.show {
+  background-color: #343a40; /* Ensures background when the collapse is expanded */
+}
+
+.btn-login {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.btn-login:hover {
+  background-color: white;
+  color: black;
+}
+.logo-part {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-img {
+  width: 80px;
+}
+.logo-img img {
+  width: 80px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .logo-img {
+    width: 70px;
+  }
+}

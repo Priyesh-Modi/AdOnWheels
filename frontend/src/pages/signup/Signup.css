@@ -1,0 +1,23 @@
+.signup-container {
+  height: 100vh;
+}
+
+.container-card {
+  height: 700px;
+  margin-top: 100px;
+}
+.title-form {
+  font-size: 20px;
+}
+@media screen and (max-width: 480px) {
+  .container-card {
+    height: 600px;
+    margin-top: 100px;
+  }
+  .form-titles {
+    font-size: 12px;
+  }
+  .inputs-form {
+    height: 22px;
+  }
+}
